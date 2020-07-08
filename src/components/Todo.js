@@ -5,7 +5,7 @@ const Todo = props => {
         <div
             onClick={() => props.toggleTodo(props.todo.id)}
         >
-            <p>{props.todo.name}</p>
+            <p>{props.todo.task}</p>
         </div>
     )
 }

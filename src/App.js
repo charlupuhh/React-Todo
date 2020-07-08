@@ -6,12 +6,12 @@ import TodoList from './components/TodoList'
 
 const todos = [
   {
-    name: 'Organize Garage',
+    task: 'Organize Garage',
     id: 1528817077286,
     completed: false
   },
   {
-    name: 'Bake Cookies',
+    task: 'Bake Cookies',
     id: 1528817084358,
     completed: false
   }
@@ -32,7 +32,7 @@ class App extends React.Component {
   addTodo = (e, todo) => {
     e.preventDefault();
     const newTodo = {
-      name: todo,
+      task: todo,
       id: Date.now(),
       completed: false
     };
