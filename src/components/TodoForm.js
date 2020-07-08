@@ -21,7 +21,7 @@ class TodoForm extends React.Component{
     render() {
         console.log('rendering form');
         return (
-            <form onSubmit={this.submitItem}>
+            <form onSubmit={this.submitTodo}>
                 <input
                     type="text"
                     value={this.state.item}
